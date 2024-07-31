@@ -1,0 +1,28 @@
+@media  screen and (max-width:576px) {
+    .nav-list nav ul{
+        display: none;
+    }
+    .hambarg{
+        display: block;
+        color: #ffff;
+        font-size: 2rem;
+    }
+    .over-all-banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        max-width: 100%;
+        height: 489px;
+    }
+    .banner-content p{
+        margin: 39px 0px;
+    }
+    .video-tutorial{
+        bottom: 23%;
+        right: 48%;
+    }
+    .video-tutorial-two{
+    top: 51%;
+    right: 0%;
+    }
+}

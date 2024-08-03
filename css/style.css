@@ -12,7 +12,7 @@
 
 /* header part start here */
 .main-bg-color{
-    background: linear-gradient(180deg, #111111 100%, rgba(119, 119, 119, 0) 100%);
+    background: rgb(0, 0, 0);
 
 
 }
@@ -217,8 +217,8 @@ margin: 25px 0px;
     position: absolute;
     top: 25%;
     right: -3%;
-     gap: 11px;
-    padding: 7px 14px;
+    gap: 11px;
+    padding: 12px 19px;
 }
 .video-tutorial-two h5{
     color: rgb(250, 250, 249);
@@ -239,17 +239,153 @@ margin: 25px 0px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* banner part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- change our habits part start here  --> */
+
+.change-habit-header-section{
+padding: 60px 0px;
+   
+}
+.change-habit-header{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.change-habit-header h1{
+color: rgb(255, 255, 255);
+font-family: 'Inter';
+font-size: 2.2rem;
+font-weight: 800;
+
+}
+.change-habit-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0px;
+
+}
+
+.habit-img-content{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 23px;
+    padding: 26px 0px;
+}
+
+.habit-img-main-content{
+    width: 251px;
+    height: 284px;
+    
+    text-align: center;
+}
+.habit-img{
+
+
+}
+.maing-habit-img{
+ max-width: 100%;
+ border-radius: 50%;
+    
+}
+.habit-img-main-content h5{
+color: rgb(255, 255, 255);
+font-family: 'Inter';
+font-size: 1rem;
+font-weight: 600;
+padding: 10px 0px;
+
+}
+.habit-img-main-content p{
+ color: rgba(255, 255, 255, 0.5);
+ font-family: 'Inter';
+font-size: 0.6rem;
+font-weight: 400;
+letter-spacing: 0.3px;
+}
+
+
+/* <!-- change our habits part end here  --> */
+
+
+
+
+/* <!-- run part start here --> */
+.run-all-part{
+    
+display: flex;
+    
+max-width: 80%;
+    
+margin: 0 auto;
+    
+padding: 30px 42px;
+    
+gap: 40px;
+    
+align-items: center;
+    
+border-radius: 10px;
+    
+background: rgb(34, 34, 34);
+}
+.run-text{
+
+max-width: 50%;
+
+
+}
+.run-text h1{
+ color: rgb(255, 255, 255);
+ font-family: 'Inter';
+ font-size: 2.5rem;
+ font-weight: 800;
+ line-height: 106%;
+}
+.run-text p{
+    
+color: rgba(255, 255, 255, 0.5);
+    
+font-family: 'Inter';
+    
+font-size: 0.6rem;
+    
+font-weight: 400;
+    
+line-height: 22px;
+    
+padding: 17px 0px;
+}
+.run-img{
+
+max-width: 50%;
+}
+.run-img img{
+    
+max-width: 100%;
+    
+border-radius: 16px;
+}
+
+/* <!-- run part end here --> */

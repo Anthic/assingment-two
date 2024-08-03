@@ -25,4 +25,25 @@
     top: 51%;
     right: 0%;
     }
+    .habit-img-content{
+    flex-direction: column;
+    align-items: center;
+    }
+    .run-all-part{
+        flex-direction: column;
+        max-width: 91%;
+        padding: 25px 31px;
+    }
+    .run-text {
+        max-width: 92%;
+
+    }
+    .run-img {
+        max-width: 92%;
+    }
+    .btn-one {
+        padding: 29px 126px 34px 126px;
+        font-size: 1.5rem;
+
+    }
 }

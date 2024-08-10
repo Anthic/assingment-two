@@ -129,18 +129,18 @@ margin: 25px 0px;
 
 }
 .btn-one{
-        padding: 14px 37px 14px 37px;
-        border: 1px solid rgb(230, 83, 60);
-        border-radius: 40px;
-        border: none;
-    background: rgb(230, 83, 60);
-    color: rgb(255, 255, 255);
-    font-family: 'Inter';
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1rem;
-    margin-right: 10px;
-    transition: 0.4s ;
+padding: 14px 37px 14px 37px;
+border: 1px solid rgb(230, 83, 60);
+border-radius: 40px;
+border: none;
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+font-family: 'Inter';
+font-size: 1rem;
+font-weight: 400;
+line-height: 1rem;
+margin-right: 10px;
+transition: 0.4s ;
 
 }
 .btn-two{
@@ -387,5 +387,202 @@ max-width: 100%;
     
 border-radius: 16px;
 }
-
+.btn-three{
+    padding: 14px 37px 14px 37px;
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-right: 10px;
+    transition: 0.4s ;
+}
 /* <!-- run part end here --> */
+
+
+
+
+
+
+
+
+/* <!-- bmi part start here --> */
+
+
+.bmi-title{
+
+max-width: 61%;
+
+margin: 0 auto;
+
+padding: 44px 0px;
+}
+
+.bmi-title h1{
+    
+color: rgb(255, 255, 255);
+    
+font-family: 'Inter';
+    
+font-size: 2rem;
+    
+font-weight: 800;
+    
+
+}
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+   
+}
+.bmi-all-thing{
+    background: rgb(34, 34, 34);
+}
+.bmi-table{
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.bmi-list{
+
+padding: 30px 0px;
+
+max-width: 50%;
+}
+
+.bmi-list h2{
+    
+color: rgb(255, 255, 255);
+    
+font-family: 'Inter';
+    
+font-size: 1.3rem;
+    
+font-weight: 800;
+
+    
+
+}
+
+.bmi-list table{
+
+border-collapse: collapse;
+
+margin: 26px 0px;
+}
+
+.bmi-list table tr{
+
+border: 2px solid rgba(255, 255, 255, 0.1);
+
+padding: 10px;
+}
+.bmi-list table tr th{
+    padding: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.bmi-list table tr td{
+
+padding: 12px;
+color: rgba(255, 255, 255, 0.5);
+font-family: "Inter";
+font-size: 0.9rem;
+font-weight: 400;
+letter-spacing: 0%;
+
+
+}
+
+
+.bmi-calculation{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.bmi-main-cal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+.bmi-main-cal input{
+
+padding: 14px 41px 14px 27px;
+
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+
+border: none;
+
+color: rgba(255, 255, 255, 0.6);
+
+font-family: 'Inter';
+
+font-size: 1rem;
+
+font-weight: 400;
+
+
+}
+.bmi-main-cal select {
+    padding: 14px 41px 14px 27px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgb(255 255 255 / 30%);
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 300;
+}
+.bmi-main-cal select option{
+
+}
+
+.bmi-calculation h1{
+    color: rgb(255, 255, 255);
+    
+font-family: 'Inter';
+    
+font-size: 1.3rem;
+    
+font-weight: 800;
+}
+.bmi-calculation p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 20px 0px;
+}
+.btn-four{
+    padding: 14px 37px 14px 37px;
+    background-color: #E6533C;
+    border-radius: 40px;
+   border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-top: 15px;
+   
+}
+/* <!-- bmi part end here --> */

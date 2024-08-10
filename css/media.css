@@ -41,9 +41,39 @@
     .run-img {
         max-width: 92%;
     }
-    .btn-one {
+    .btn-three {
         padding: 29px 126px 34px 126px;
         font-size: 1.5rem;
+
+    }
+    .bmi-table {
+        display: flex;
+     
+        flex-direction: column;
+        
+        max-width: 100%;
+    }
+    .bmi-calculation {
+        max-width: 100%;
+        margin: 0px 17px;
+    }
+    .bmi-main-cal {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+        gap: 10px;
+    }
+    .bmi-list {
+      
+        max-width: 60%;
+        margin-left: 31px;
+    }
+    .bmi-main-cal select {
+        padding: 16px 32px 14px 15px;
+        font-size: 0.9rem;
+        
+    }
+    .bmi-title {
+        max-width: 89%;
 
     }
 }

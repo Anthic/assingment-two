@@ -76,4 +76,26 @@
         max-width: 89%;
 
     }
+
+    .meet-our-img{
+
+        
+        grid-template-columns: repeat(1, 1fr);
+
+        }
+        .one-pic{
+            display: none;
+        }
+        .two-pic{
+            display: none;
+        }
+        .meet-team-head {
+            
+        padding: 62px 0px;
+        }
+        .meet-team-head h1 {
+
+            padding: 21px 0px;
+        }
+    
 }
